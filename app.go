@@ -31,5 +31,5 @@ func main() {
 	// Crea el servidor
 	fmt.Println("The server is running on port 3000")
 	fmt.Println("Run server: http://localhost:3000")
-	http.ListenAndServe("davidagudelo09.github.io/Go-WebPage-Test/", nil)
+	http.ListenAndServe("localhost:3000", nil)
 }
